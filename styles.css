@@ -260,6 +260,15 @@ main {
     margin-bottom: 1.5rem;
 }
 
+.price-note {
+    display: block;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    font-weight: 300;
+    color: var(--charcoal);
+    margin-top: 0.25rem;
+    opacity: 0.85;
+}
+
 .service-details {
     list-style: none;
     display: grid;
